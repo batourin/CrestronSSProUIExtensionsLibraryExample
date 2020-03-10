@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrestronSSProUIExtensionsExample", "CrestronSSProUIExtensionsExample.csproj", "{BE8A7A6D-90E5-44B5-9831-2C403D82D346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrestronSSProExtensionsLibrary", "..\..\Daniels\CrestronSSProExtensionsLibrary\CrestronSSProExtensionsLibrary.csproj", "{75F60FD9-C86C-4158-A54F-3307FEBE2AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrestronSSProUIExtensionsLibrary", "..\..\Daniels\CrestronSSProUIExtensionsLibrary\CrestronSSProUIExtensionsLibrary.csproj", "{5B58E68C-9062-438B-95CA-18B7731C7335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielsAuthLibrary", "..\..\Daniels\DanielsAuthLibrary\DanielsAuthLibrary.csproj", "{96604F2F-2EC3-4B50-8B60-3AE33E608A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8A7A6D-90E5-44B5-9831-2C403D82D346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8A7A6D-90E5-44B5-9831-2C403D82D346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8A7A6D-90E5-44B5-9831-2C403D82D346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8A7A6D-90E5-44B5-9831-2C403D82D346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F60FD9-C86C-4158-A54F-3307FEBE2AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F60FD9-C86C-4158-A54F-3307FEBE2AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F60FD9-C86C-4158-A54F-3307FEBE2AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F60FD9-C86C-4158-A54F-3307FEBE2AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B58E68C-9062-438B-95CA-18B7731C7335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B58E68C-9062-438B-95CA-18B7731C7335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B58E68C-9062-438B-95CA-18B7731C7335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B58E68C-9062-438B-95CA-18B7731C7335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96604F2F-2EC3-4B50-8B60-3AE33E608A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96604F2F-2EC3-4B50-8B60-3AE33E608A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96604F2F-2EC3-4B50-8B60-3AE33E608A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96604F2F-2EC3-4B50-8B60-3AE33E608A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
