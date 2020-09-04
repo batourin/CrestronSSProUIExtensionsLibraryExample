@@ -61,28 +61,6 @@ namespace CrestronSSProUIExtensionsExample
             Name = "Test Dynamic Icon List",
         };
 
-        
-        private ReadOnlyDictionary<string, Action<bool>> _actions = new ReadOnlyDictionary<string,Action<bool>>(
-            new Dictionary<string, Action<bool>>()
-            {
-                {
-                    "Action 1", new Action<bool>(x => 
-                        {
-                            if(!x)
-                            {
-                                CrestronConsole.PrintLine("Action 1");
-                                //Action1();
-                            }
-                        }
-                    )
-                },
-                {"Action 2", new Action<bool>(x => {if(!x){CrestronConsole.PrintLine("Action 2");}})},
-                {"Action 3", new Action<bool>(x => {if(!x){CrestronConsole.PrintLine("Action 3");}})},
-                {"Action 4", new Action<bool>(x => {if(!x){CrestronConsole.PrintLine("Action 4");}})},
-                {"Action 5", new Action<bool>(x => {if(!x){CrestronConsole.PrintLine("Action 5");}})},
-            }
-            );
-
         #region Constructors
 
         /// <summary>
